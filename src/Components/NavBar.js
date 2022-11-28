@@ -52,7 +52,7 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/karlosceja"><img src={navIcon1} alt="" /></a>
                 <a href="https://www.linkedin.com/in/mariana-jimenez-garcia-21a20a255/"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/alejandro-sedano-luna-71b262219/"><img src={navIcon1} alt="" /></a>
               </div>
               <a  href="https://harmonious-meringue-3f109b.netlify.app/" target="_blank">
                 <button className="vvd">
