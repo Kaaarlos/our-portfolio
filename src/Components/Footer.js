@@ -14,7 +14,7 @@ export const Footer = () => {
             <div className="social-icon">
               <a href="https://github.com/Kaaarlos"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://github.com/MarianaJimGar"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://github.com/Alejandro-Sedano"><img src={navIcon1} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
