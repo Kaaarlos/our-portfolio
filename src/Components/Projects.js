@@ -11,6 +11,12 @@ import projImg4 from "../assets/img/GaleriaArteMariana.png";
 import projImg5 from "../assets/img/gatoGame.png";
 import projImg6 from "../assets/img/juegoMariana.png";
 
+//alex imagenes
+import projImg7 from "../assets/img/alex1.png";
+import projImg8 from "../assets/img/alex2.png";
+import projImg9 from "../assets/img/alex3.png";
+
+
 
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -55,7 +61,25 @@ export const Projects = () => {
       imgUrl: projImg6,
     },
   ];
-
+  
+  //alex imagenes
+  const projectsAlex = [
+    {
+      title: "3D WEN",
+      description: "Development",
+      imgUrl: projImg7,
+    },
+    {
+      title: "WEB GAME",
+      description: "Games",
+      imgUrl: projImg8,
+    },
+    {
+      title: "CALCULATOR",
+      description: "Games",
+      imgUrl: projImg9,
+    },
+  ];
   return (
     <section className="project" id="project">
       <Container>
@@ -110,7 +134,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                           {
-                            projectsMariana.map((project, index) => {
+                            projectsAlex.map((project, index) => {
                               return (
                                 <ProjectCard
                                   key={index}
