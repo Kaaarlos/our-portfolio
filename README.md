@@ -1,3 +1,7 @@
+Proyecto realiado con React y Bootsrap 5.1
+
+Iniciar proyecto:
+npm start
 
 ![image](https://user-images.githubusercontent.com/73798412/204670749-ce5986ae-523a-4763-be62-fec030c7110a.png)
 
