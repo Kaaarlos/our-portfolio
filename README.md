@@ -1,4 +1,4 @@
-Proyecto desarrollado con React y Bootsrap 5.1
+Proyecto desarrollado con React, ThreeJs Bootsrap 5.1
 
 Iniciar proyecto:
 npm start
