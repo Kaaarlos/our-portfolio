@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 
 //carlos imagenes
 import projImg1 from "../assets/img/calculadora.png";
+<<<<<<< HEAD
 import projImg2 from "../assets/img/Gato.png";
 import projImg3 from "../assets/img/EditMe.png";
 
@@ -18,6 +19,15 @@ import projImg9 from "../assets/img/alex3.png";
 
 
 
+=======
+import projImg2 from "../assets/img/3dPort.png";
+import projImg3 from "../assets/img/EditMe.png";
+
+//mariana imagenes
+import projImg4 from "../assets/img/lab.gif";
+import projImg5 from "../assets/img/mine.gif";
+import projImg6 from "../assets/img/oficina.gif";
+>>>>>>> e960d24 (se agrego mi portafolio completo)
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -32,8 +42,13 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
+<<<<<<< HEAD
       title: "3D RENDERS",
       description: "DesigN",
+=======
+      title: "3D Portfolio",
+      description: "Desing",
+>>>>>>> e960d24 (se agrego mi portafolio completo)
       imgUrl: projImg2,
     },
     {
@@ -44,7 +59,11 @@ export const Projects = () => {
   ];
   
   //mariana imagenes
+<<<<<<< HEAD
   const projectsMariana = [
+=======
+  const projects3D = [
+>>>>>>> e960d24 (se agrego mi portafolio completo)
     {
       title: "ART GALLERY",
       description: "Development",
@@ -62,6 +81,7 @@ export const Projects = () => {
     },
   ];
   
+<<<<<<< HEAD
   //alex imagenes
   const projectsAlex = [
     {
@@ -80,6 +100,8 @@ export const Projects = () => {
       imgUrl: projImg9,
     },
   ];
+=======
+>>>>>>> e960d24 (se agrego mi portafolio completo)
   return (
     <section className="project" id="project">
       <Container>
@@ -89,6 +111,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
+<<<<<<< HEAD
                 <p>Projects that have been created throughout the university.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -100,6 +123,19 @@ export const Projects = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Alex</Nav.Link>
+=======
+                <p>Projects that I have been created throughout the university.</p>
+                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                    <Nav.Item>
+                      <Nav.Link eventKey="first">Web</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="second">School</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="third">3D</Nav.Link>
+>>>>>>> e960d24 (se agrego mi portafolio completo)
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -120,7 +156,11 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <Row>
                           {
+<<<<<<< HEAD
                             projectsMariana.map((project, index) => {
+=======
+                            projects.map((project, index) => {
+>>>>>>> e960d24 (se agrego mi portafolio completo)
                               return (
                                 <ProjectCard
                                   key={index}
@@ -134,7 +174,11 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                           {
+<<<<<<< HEAD
                             projectsAlex.map((project, index) => {
+=======
+                            projects3D.map((project, index) => {
+>>>>>>> e960d24 (se agrego mi portafolio completo)
                               return (
                                 <ProjectCard
                                   key={index}
@@ -155,4 +199,8 @@ export const Projects = () => {
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e960d24 (se agrego mi portafolio completo)

@@ -22,4 +22,8 @@ export const Footer = () => {
       </Container>
     </footer>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e960d24 (se agrego mi portafolio completo)

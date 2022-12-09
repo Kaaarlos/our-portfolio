@@ -12,4 +12,8 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
       </div>
     </Col>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e960d24 (se agrego mi portafolio completo)

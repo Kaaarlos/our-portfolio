@@ -3,8 +3,11 @@ import meter2 from "../assets/img/meter2.png";
 import meter3 from "../assets/img/meter3.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+<<<<<<< HEAD
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
+=======
+>>>>>>> e960d24 (se agrego mi portafolio completo)
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -53,6 +56,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <br></br>        <br></br>        <br></br>        <br></br>
         <div className="container">
             <div className="row">
@@ -109,3 +113,9 @@ export const Skills = () => {
     </section>
   )
 }
+=======
+        <img className="background-image-left" src={colorSharp} alt="Image" />
+    </section>
+  )
+}
+>>>>>>> e960d24 (se agrego mi portafolio completo)

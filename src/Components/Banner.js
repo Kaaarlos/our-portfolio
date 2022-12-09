@@ -9,7 +9,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "3D", "Games", "Web" ];
+  const toRotate = [ "3D", "WEB", "GAMES" ];
   const period = 2000;
 
   useEffect(() => {
@@ -53,11 +53,19 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+<<<<<<< HEAD
                 <a href="https://harmonious-meringue-3f109b.netlify.app/">
                 <span className="tagline">Welcome to our 3D portfolio</span>
                 </a>
                 <h1>{`We are Mariana, Alejandro & Carlos`} <br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "3D", "Games", "Web" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Creativity is our inspiration</p>
+=======
+                <a href="https://harmonious-meringue-3f109b.netlify.app/" target="_blank">
+                  <span className="tagline"> Welcome to my 3D portfolio</span>
+                </a>
+                <h1>{`✌️ I'm Carlos Alberto Ceja Zapata`} <br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "3D", "Games", "Web" ]'><span className="wrap">{text}</span></span></h1>
+                <p>I love 3D, Programming & Cats 🙀 </p>
+>>>>>>> e960d24 (se agrego mi portafolio completo)
               </div>}
             </TrackVisibility>
           </Col>
